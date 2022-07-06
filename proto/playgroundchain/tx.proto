@@ -1,0 +1,13 @@
+syntax = "proto3";
+package arnabghose997.playgroundchain.playgroundchain;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/arnabghose997/playground-chain/x/playgroundchain/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message

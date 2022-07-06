@@ -1,0 +1,14 @@
+syntax = "proto3";
+package arnabghose997.playgroundchain.playgroundchain;
+
+import "gogoproto/gogo.proto";
+import "playgroundchain/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/arnabghose997/playground-chain/x/playgroundchain/types";
+
+// GenesisState defines the playgroundchain module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}

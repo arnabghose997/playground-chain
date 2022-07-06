@@ -1,0 +1,12 @@
+syntax = "proto3";
+package arnabghose997.playgroundchain.playgroundchain;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/arnabghose997/playground-chain/x/playgroundchain/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
